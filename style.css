@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'SF Pro Display';  
+    font-family: 'Roboto', sans-serif; 
 }
 a {
     text-decoration: none;
@@ -13,6 +13,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
 }
 .nav-content {
     max-width: 1000px;
@@ -199,4 +200,7 @@ main section:nth-child(2) {
     background-image: url(./images/figure\ \(7\).png);
     background-position: center;
     background-repeat: no-repeat;
+}
+footer {
+    background-color: #F5F5F7;
 }

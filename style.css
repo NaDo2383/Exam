@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'SF Pro Display';  
+}
+a {
+    text-decoration: none;
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-content {
+    max-width: 1000px;
+    display: flex;
+    gap: 44px;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+#iphone14pro {
+    background: #000000;
+    padding-top: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("./images/iphone14pro.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 692px;
+}
+#iphone14 {
+    background: #FBFBFD;
+    padding-top: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#iwatch-ultra {
+    background: #FBFBFD;
+    padding-top: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;  
+    letter-spacing: 0.28px;
+    color: #1D1D1F;
+}
+.section-text {
+    font-weight: 400px;
+    font-size: 28px;
+    line-height: 31px;  
+    letter-spacing: 0.112px;
+    color: #1D1D1F;
+    margin-top: 10px;
+}
+.buttons a { 
+    color: #0066CC;
+    font-size: 21px;
+    line-height: 29px;
+    font-weight: 400;
+    letter-spacing: 0.231px;
+}
+.buttons {
+    display: flex;
+    gap: 39.35px;
+}
+#iphone14pro .section-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;  
+    letter-spacing: 0.28px;
+    color: #F5F5F7;
+}
+#iphone14pro .section-text {
+    font-weight: 400px;
+    font-size: 28px;
+    line-height: 31px;  
+    letter-spacing: 0.112px;
+    color: #F5F5F7;
+    margin-top: 10px;
+}
+#iwatch-ultra .section-header {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;  
+    letter-spacing: 0.28px;
+    color: #1D1D1F;
+}
+.section-header2 {
+    color: orangered;  
+    font-size: 24px;
+}
